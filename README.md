@@ -4,14 +4,12 @@ A starter for a Luvit custom binary. [Isolated (stolen) from the Luvit examples]
 
 ### Setup
 
-Install the dependencies with Lit, but running `lit install`.
+Install the dependencies with [Lit](https://github.com/luvit/lit), but running `lit install`. This will download and install all the dependencies from the `package.lua` file.
 
 ### Running
 
-You can run the app without building by running `luvi .` in the root directory.
+With [Luvi](https://github.com/luvit/luvi) installed, you can run the app *without building* by running `luvi .` in the root directory.
 
 ### Building
 
 Running `make binary` will build the app for you, it is an alias for running `lit make .`. The output will be a file called `custom-binary`. This can be executed like any other binary by running `./custom-binary`.
-
-
