@@ -4,7 +4,7 @@ A starter for a Luvit custom binary. [Isolated (stolen) from the Luvit examples]
 
 ### Setup
 
-Install the dependencies with [Lit](https://github.com/luvit/lit), but running `lit install`. This will download and install all the dependencies from the `package.lua` file.
+Install the dependencies with [Lit](https://github.com/luvit/lit), but running `lit install`. This will download and install all the dependencies from the `package.lua` file. You should also change the name in you package to match your project. The `Makefile` will read this package and use the real name you entered to create the binary.
 
 ### Running
 
